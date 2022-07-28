@@ -1,0 +1,33 @@
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+}
+h2 {
+    margin-right: 50px;
+}
+h2, h3 {
+    display: inline-flex;
+}
+h3 {
+    color: grey;
+    font-size: 10px;
+    text-align: right;
+}
+#div1 {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+img {
+    width: 500px;
+    height: 500px;
+}

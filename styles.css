@@ -1,8 +1,8 @@
 body {
-    background-color: whitesmoke;
+    background-color: #D8D8D8 
 }
 h1 {
-    margin: auto;
+    margin-bottom: 40px;
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
     font-family: 'Edu NSW ACT Foundation', cursive;
@@ -10,22 +10,38 @@ h1 {
     font-family: 'Lobster Two', cursive;
     text-align: center;
 }
+div {
+    background-color: white;
+}
 h2 {
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 300px;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+    
 }
-h2, h3 {
+h2, span {
     display: inline-flex;
+    margin-top: 10px;
+    border-radius: 25px;
 }
-h3 {
+span {
     color: grey;
-    font-size: 10px;
+    font-size: 15px;
     text-align: right;
 }
-#div1 {
+.container1 {
     display: block;
     width: 500px;
     height: 500px;
     margin: auto;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 img {
     width: 500px;
